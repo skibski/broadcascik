@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText3" />
+        android:id="@+id/edit1" />
 
     <EditText
         android:layout_width="match_parent"
@@ -16,12 +16,12 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
-        android:id="@+id/editText" />
+        android:id="@+id/edit2" />
 
     <Button
         android:text="wysłanie sms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button" />
+        android:id="@+id/b10" />
 
 </LinearLayout>
