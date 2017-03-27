@@ -14,10 +14,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType= "textCapSentences|textMultiLine"
         android:hint="Treść wiadomości"
+        android:layout_weight="1"
+        android:maxLines= "8"
+        android:maxLength="2000"
         android:ems="10"
-        android:id="@+id/edit2" />
+        android:id="@+id/edit2"
+        android:singleLine="false"
+        android:gravity="top" />
 
     <Button
         android:text="wysłanie sms"

@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".dzwonienie">
         </activity>
+        <activity android:name=".skrzynka">
+        </activity>
     </application>
 
 </manifest>
