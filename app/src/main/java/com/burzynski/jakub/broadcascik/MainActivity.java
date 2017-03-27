@@ -40,7 +40,15 @@ public class MainActivity extends AppCompatActivity {
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), sms.class);
+                Intent i = new Intent(getApplicationContext(), smsik.class);
+                startActivity(i);
+            }
+        });
+
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), dzwonienie.class);
                 startActivity(i);
             }
         });
